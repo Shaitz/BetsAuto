@@ -11,7 +11,6 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 @Entity
 public class User 
 {
-	private static final String ADMIN123 = "admin123";
 	@Id
 	@XmlJavaTypeAdapter(IntegerAdapter.class)
 	@GeneratedValue (strategy=GenerationType.IDENTITY)
@@ -42,7 +41,7 @@ public class User
 		this.password = password;
 		this.betList = new ArrayList<>();
 		this.pastBets = new ArrayList<>();
-		if(password.equals(ADMIN123))
+		if(password.equals("admin123"))
 			admin = true;
 		else
 			admin = false;
@@ -58,7 +57,7 @@ public class User
 		this.password = password;
 		this.betList = new ArrayList<>();
 		this.pastBets = new ArrayList<>();
-		if(password.equals(ADMIN123))
+		if(password.equals("admin123"))
 			admin = true;
 		else
 			admin = false;
@@ -73,7 +72,7 @@ public class User
 		this.password = password;
 		this.betList = new ArrayList<>();
 		this.pastBets = new ArrayList<>();
-		if(password.equals(ADMIN123))
+		if(password.equals("admin123"))
 			admin = true;
 		else
 			admin = false;
@@ -88,7 +87,7 @@ public class User
 		this.password = password;
 		this.betList = new ArrayList<>();
 		this.pastBets = new ArrayList<>();
-		if(password.equals(ADMIN123))
+		if(password.equals("admin123"))
 			admin = true;
 		else
 			admin = false;
@@ -136,7 +135,7 @@ public class User
 	public void setPassword(String password)
 	{
 		this.password = password;
-		if(password.equals(ADMIN123))
+		if(password.equals("admin123"))
 			admin=true;
 		else
 			admin=false;
