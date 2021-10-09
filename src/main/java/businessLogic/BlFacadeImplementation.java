@@ -68,12 +68,14 @@ public class BlFacadeImplementation implements BlFacade {
 
 		//The minimum bid must be greater than 0
 		dbManager.open(false);
-		Question qry = null;
 
 		if (new Date().compareTo(event.getEventDate()) > 0)
+		{
 			throw new EventFinished(ResourceBundle.getBundle("Etiquetas").
 					getString("ErrorEventHasFinished"));
+		}
 
+		Question qry = null;
 		qry = dbManager.createQuestion(event, question, betMinimum, type);		
 		dbManager.close();
 		return qry;
