@@ -5,6 +5,7 @@ import javax.persistence.*;
 @Entity
 public class Bet 
 {
+	private static final String whitespace = "      ";
 	@Id
 	@GeneratedValue (strategy=GenerationType.IDENTITY)
 	private int questionId;
@@ -56,6 +57,6 @@ public class Bet
 	
 	public String toString()
 	{
-		return this.questionId + "      " + this.question.toString() + "      " + this.answer + "      " + this.placedBet;
+		return this.questionId + whitespace + this.question.toString() + whitespace + this.answer + whitespace + this.placedBet;
 	}
 }
