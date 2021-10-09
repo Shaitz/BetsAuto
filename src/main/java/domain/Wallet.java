@@ -18,11 +18,13 @@ public class Wallet {
 		currency = initialAmount;
 	}
 	
-	public double getCurrency() {
+	public double getCurrency() 
+	{
 		return currency;
 	}
 	
-	public String getAccount() {
+	public String getAccount() 
+	{
 		return bankAccount;
 	}
 	
@@ -36,9 +38,13 @@ public class Wallet {
 	
 	public boolean removeMoney(double amount) {
 		if(currency - amount < 0)
+		{
 			return false;
+		}
 		else 
+		{
 			currency -= amount;
+		}
 		return true;
 	}
 }
