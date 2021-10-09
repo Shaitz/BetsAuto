@@ -1,66 +1,66 @@
 
-TbusinessLogic.BlFacadeImplementation#placeBet(Ldomain/Question;DLjava/lang/String;)Ze
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java§ §("startingBlock*ß
-startingBlocke
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java§ §(F¥
-±
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java£ £(
+TbusinessLogic.BlFacadeImplementation#placeBet(Ldomain/Question;DLjava/lang/String;)Z_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java§ §("startingBlock*â
+startingBlock_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java§ §(FÆ
+´
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java£ £(
 %8"
 __annotate*
 javax.jws.WebMethod*
 
-questiondomain.Questionù
-ö
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java§" §(*
+questiondomain.Questionó
+î
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java§" §(*
 questiondomain.Question"__annotation*
 
-%8≥
-∞
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java£ £(
+%8≠
+™
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java£ £(
 %9"
 __annotate*
 javax.jws.WebMethod*
 
-answerjava.lang.Stringú
-ô
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java§? §(E
+answerjava.lang.Stringñ
+ì
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java§? §(E
 answerjava.lang.String"__annotation*
 
 %9*
-1*Á
-1e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java¶ ¶(∆
-√
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java¶ ¶(
+1*´
+1_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java¶ ¶(¿
+Ω
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java¶ ¶(
 %0dataAccess.DataAccess"__id*7*5&
 $businessLogic.BlFacadeImplementation"
-	dbManager∆√
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java¶ ¶(
+	dbManager¿Ω
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java¶ ¶(
 
 %1void"dataAccess.DataAccess#open(Z)V*
 
 %0dataAccess.DataAccess*
-""2open(Z)∆
-√
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.javaß ß(
+""2open(Z)¿
+Ω
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaß ß(
 %2dataAccess.DataAccess"__id*7*5&
 $businessLogic.BlFacadeImplementation"
-	dbManager∑
-¥
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.javaß( ß(1
+	dbManager±
+Æ
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaß( ß(1
 %3domain.User"__id*2*0&
 $businessLogic.BlFacadeImplementation"
-userÉÄ
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.javaß ß(I
+user˝˙
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaß ß(I
 %4boolean"RdataAccess.DataAccess#placeBet(Ldomain/User;Ldomain/Question;DLjava/lang/String;)Z*
 
 %2dataAccess.DataAccess*
@@ -70,26 +70,26 @@ YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplement
 questiondomain.Question*
 ""*
 
-answerjava.lang.String2;placeBet(Ldomain/User;Ldomain/Question;DLjava/lang/String;)∆
-√
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java® ®(
+answerjava.lang.String2;placeBet(Ldomain/User;Ldomain/Question;DLjava/lang/String;)¿
+Ω
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java® ®(
 %5dataAccess.DataAccess"__id*7*5&
 $businessLogic.BlFacadeImplementation"
-	dbManageræª
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java® ®(
+	dbManager∏µ
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java® ®(
 
 %6void"dataAccess.DataAccess#close()V*
 
-%5dataAccess.DataAccess2close()‰·
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java© ©(
+%5dataAccess.DataAccess2close()ﬁ€
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java© ©(
 
 %7void"3businessLogic.BlFacadeImplementation#refreshUser()V*(&
-$businessLogic.BlFacadeImplementation2refreshUser()"o
-e
-YC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/businessLogic/BlFacadeImplementation.java™ ™(
+$businessLogic.BlFacadeImplementation2refreshUser()"i
+_
+SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java™ ™(
 "":
 questiondomain.Question:
 "":

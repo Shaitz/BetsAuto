@@ -2552,7 +2552,7 @@ BetAndRuinCI,com.objectdb.o,_JdoDataStoreException,38,0,0,0,15,0,6,0,6,0
 BetAndRuinCI,com.objectdb.o,SSL,252,39,25,5,70,13,24,3,9,3
 BetAndRuinCI,com.objectdb.o,BYW,930,309,107,27,229,85,92,25,32,18
 BetAndRuinCI,com.objectdb.o,BYP,13,34,1,1,5,15,3,7,2,7
-BetAndRuinCI,com.objectdb.o,BYR,804,388,86,33,198,96,93,34,41,26
+BetAndRuinCI,com.objectdb.o,BYR,871,321,89,30,215,79,96,31,43,24
 BetAndRuinCI,com.objectdb.o,SYR,695,0,81,0,177,0,58,0,17,0
 BetAndRuinCI,com.objectdb.o,SYH,556,0,56,0,155,0,62,0,34,0
 BetAndRuinCI,com.objectdb.o,AIS,84,0,6,0,19,0,9,0,6,0

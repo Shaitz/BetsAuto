@@ -154,7 +154,8 @@ public class Question implements Serializable {
 	 * 
 	 * @param event to associate with the bet
 	 */
-	public void setEvent(Event event) {
+	public void setEvent(Event event) 
+	{
 		this.event = event;
 	}
 

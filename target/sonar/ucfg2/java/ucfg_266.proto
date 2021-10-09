@@ -1,16 +1,16 @@
 
->configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;V
-LC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/configuration/ConfigXML.java ($"1*‡
-1V
-LC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/configuration/ConfigXML.java	 (®
-«
-V
-LC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/configuration/ConfigXML.java	 (
+>configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;P
+FC:/Users/Unai/git/BetsMaven/src/main/java/configuration/ConfigXML.java ($"1*õ
+1P
+FC:/Users/Unai/git/BetsMaven/src/main/java/configuration/ConfigXML.java	 (¨
+¥
+P
+FC:/Users/Unai/git/BetsMaven/src/main/java/configuration/ConfigXML.java	 (
 %0configuration.ConfigXML"__id*,**
 configuration.ConfigXML"
-theInstance"y
-V
-LC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/configuration/ConfigXML.java (
+theInstance"s
+P
+FC:/Users/Unai/git/BetsMaven/src/main/java/configuration/ConfigXML.java (
 
 %0configuration.ConfigXMLB"
 configuration.ConfigXML

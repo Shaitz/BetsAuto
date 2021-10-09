@@ -1,17 +1,17 @@
 
-/domain.Question#getQuestion()Ljava/lang/String;N
-DC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/Question.javaY Y("1*Ö
-1N
-DC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/Question.javaZ	 Z(”
-‘
-N
-DC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/Question.javaZ	 Z(
+/domain.Question#getQuestion()Ljava/lang/String;H
+>C:/Users/Unai/git/BetsMaven/src/main/java/domain/Question.javaY Y("1*Ä
+1H
+>C:/Users/Unai/git/BetsMaven/src/main/java/domain/Question.javaZ	 Z(Ž
+‹
+H
+>C:/Users/Unai/git/BetsMaven/src/main/java/domain/Question.javaZ	 Z(
 %0java.lang.String"__id*!*
 domain.Question"
 
-question"j
-N
-DC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/Question.javaZ Z(
+question"d
+H
+>C:/Users/Unai/git/BetsMaven/src/main/java/domain/Question.javaZ Z(
 
 %0java.lang.StringB
 domain.Question

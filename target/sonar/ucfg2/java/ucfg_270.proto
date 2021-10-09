@@ -1,16 +1,16 @@
 
-@configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;V
-LC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/configuration/ConfigXML.javaB B(#"1*ÿ
-1V
-LC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/configuration/ConfigXML.javaC	 C(­
-ª
-V
-LC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/configuration/ConfigXML.javaC	 C(
+@configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;P
+FC:/Users/Unai/git/BetsMaven/src/main/java/configuration/ConfigXML.javaB B(#"1*í
+1P
+FC:/Users/Unai/git/BetsMaven/src/main/java/configuration/ConfigXML.javaC	 C(§
+¤
+P
+FC:/Users/Unai/git/BetsMaven/src/main/java/configuration/ConfigXML.javaC	 C(
 %0java.lang.String"__id*2*0
 configuration.ConfigXML"
-businessLogicName"r
-V
-LC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/configuration/ConfigXML.javaC C(
+businessLogicName"l
+P
+FC:/Users/Unai/git/BetsMaven/src/main/java/configuration/ConfigXML.javaC C(
 
 %0java.lang.StringB
 configuration.ConfigXML

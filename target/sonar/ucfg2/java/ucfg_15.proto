@@ -1,72 +1,72 @@
 
-;dataAccess.DataAccess#removeBet(Ldomain/User;Ldomain/Bet;)ZV
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaÜ Ü("8*√
-2V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaî î(Ø¨
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaî î(#
+;dataAccess.DataAccess#removeBet(Ldomain/User;Ldomain/Bet;)ZP
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaà à("8*•
+2P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javañ ñ(©¶
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javañ ñ(#
 %15double"domain.Bet#getPlacedBet()D*
 
 userBet
-domain.Bet2getPlacedBet()±Æ
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaî î()
+domain.Bet2getPlacedBet()´®
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javañ ñ()
 %16void"domain.Question#addPool(D)V*
 
 qdomain.Question*
 ""2
-addPool(D)Ø¨
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaï! ï(7
+addPool(D)©¶
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaó! ó(7
 %17double"domain.Bet#getPlacedBet()D*
 
 userBet
-domain.Bet2getPlacedBet()»≈
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaï ï(?
+domain.Bet2getPlacedBet()¬ø
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaó ó(?
 %18double" domain.User#increaseCurrency(D)D*
 
 userToChangedomain.User*
 ""2increaseCurrency(D)*
-1*—
-3V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaè è(≈¬
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaè  è(5
+1*°
+3P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaë ë(øº
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaë  ë(5
 %9domain.Question")domain.Bet#getQuestion()Ldomain/Question;*
 
 userBet
-domain.Bet2getQuestion()éã
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaè è(6
+domain.Bet2getQuestion()àÖ
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaë ë(6
 %10domain.Question"EdataAccess.DataAccess#getQuestion(Ldomain/Question;)Ldomain/Question;*
 dataAccess.DataAccess*
 
-%9domain.Question2getQuestion(Ldomain/Question;)ë
-é
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaè è(7
+%9domain.Question2getQuestion(Ldomain/Question;)ã
+à
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaë ë(7
 qdomain.Question"__id*
 
-%10domain.Question¨
-©
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaê ê(&
+%10domain.Question¶
+£
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaí í(&
 %11javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dböó
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaê ê(*
+dbîë
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaí í(*
 %12#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
 &
-%11javax.persistence.EntityManager2getTransaction()Õ 
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaê ê(
+%11javax.persistence.EntityManager2getTransaction()«ƒ
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaí í(
 %13void",javax.persistence.EntityTransaction#begin()V*,
 *
-%12#javax.persistence.EntityTransaction2begin()‚ﬂ
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaë ë(/
+%12#javax.persistence.EntityTransaction2begin()‹Ÿ
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaì ì(/
 %14boolean"$domain.User#removeBet(Ldomain/Bet;)Z*
 
 userToChangedomain.User*
@@ -74,18 +74,18 @@ JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaë
 userBet
 domain.Bet2removeBet(Ldomain/Bet;)*
 2
-1*˛
-4V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaã ã(y
-w
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaã ã(
+1*Ï
+4P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaç ç(s
+q
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaç ç(
 b
 domain.Bet"__id*
-""ù
-ö
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaã ã(
+""ó
+î
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaç ç(
 b
 domain.Bet"
 __arrayGet*
@@ -93,116 +93,116 @@ __arrayGet*
 betlistjava.util.List*
 ""*
 3
-6*Ó
-5V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaç ç(ã
-à
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaç ç(
+6*‚
+5P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaè è(Ö
+Ç
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaè è(
 userBet
 domain.Bet"__id*
 
 b
 domain.Bet*
-4*ë	
-6V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaå å(
-¡æ
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaå å(
+4*Ì
+6P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaé é(
+ª∏
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaé é(
 %4domain.Question")domain.Bet#getQuestion()Ldomain/Question;*
 
 bet
-domain.Bet2getQuestion()⁄◊
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaå å(,
+domain.Bet2getQuestion()‘—
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaé é(,
 %5java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
 
-%4domain.Question2getQuestionNumber()øº
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaå4 å(C
+%4domain.Question2getQuestionNumber()π∂
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaé4 é(C
 %6domain.Question")domain.Bet#getQuestion()Ldomain/Question;*
 
 b
-domain.Bet2getQuestion()⁄◊
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaå4 å(W
+domain.Bet2getQuestion()‘—
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaé4 é(W
 %7java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
 
-%6domain.Question2getQuestionNumber()ÎË
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaå å(X
+%6domain.Question2getQuestionNumber()Â‚
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaé é(X
 %8boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
 
 %5java.lang.Integer*
 
 %7java.lang.Integer2equals(Ljava/lang/Object;)*
 4
-5*Œ
-8V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaá á(∆√
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaá7 á(I
+5*û
+8P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaâ â(¿Ω
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaâ6 â(H
 %0java.lang.String"+domain.User#getUsername()Ljava/lang/String;*
 
-userdomain.User2getUsername()∆√
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaáK á(]
+userdomain.User2getUsername()¿Ω
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaâJ â(\
 %1java.lang.String"+domain.User#getPassword()Ljava/lang/String;*
 
-userdomain.User2getPassword()Ê„
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaá á(^
+userdomain.User2getPassword()‡›
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaâ â(]
 %2domain.User"ddataAccess.DataAccess#getUserWithUsernamePassword(Ljava/lang/String;Ljava/lang/String;)Ldomain/User;*
 dataAccess.DataAccess*
 
 %0java.lang.String*
 
-%1java.lang.String2AgetUserWithUsernamePassword(Ljava/lang/String;Ljava/lang/String;)ì
-ê
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaá á(_
+%1java.lang.String2AgetUserWithUsernamePassword(Ljava/lang/String;Ljava/lang/String;)ç
+ä
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaâ â(^
 userToChangedomain.User"__id*
 
-%2domain.User¬ø
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaà à(,
+%2domain.Userºπ
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaä ä(,
 %3java.util.List"%domain.User#getBets()Ljava/util/List;*
 
-userToChangedomain.User2	getBets()î
-ë
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaà à(-
+userToChangedomain.User2	getBets()é
+ã
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaä ä(-
 betlistjava.util.List"__id*
 
-%3java.util.List
-}
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaâ â(
+%3java.util.Listy
+w
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaã ã(
 userBet
 domain.Bet"__id*
 ""*
-4*€
-1V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaó ó(¨
-©
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaó ó(&
+4*Ω
+1P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaô ô(¶
+£
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaô ô(&
 %19javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dböó
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaó ó(*
+dbîë
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaô ô(*
 %20#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
 &
-%19javax.persistence.EntityManager2getTransaction()œÃ
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaó ó(
+%19javax.persistence.EntityManager2getTransaction()…∆
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaô ô(
 %21void"-javax.persistence.EntityTransaction#commit()V*,
 *
-%20#javax.persistence.EntityTransaction2commit()"`
-V
-JC:/Users/Unai/git/BetAndRuin/Bets/src/main/java/dataAccess/DataAccess.javaò ò(
+%20#javax.persistence.EntityTransaction2commit()"Z
+P
+DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaö ö(
 "":
 userdomain.User:
 bet

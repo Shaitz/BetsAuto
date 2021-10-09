@@ -130,7 +130,7 @@ public class BlFacadeImplementation implements BlFacade {
 	public User getRegisteredUser(String username, String password) 
 	{
 <span class="nc" id="L132">		dbManager.open(false);</span>
-<span class="nc" id="L133">		User u = dbManager.getUserWithUsernamePassword(username, password);</span>
+<span class="nc" id="L133">		var u = dbManager.getUserWithUsernamePassword(username, password);</span>
 <span class="nc bnc" id="L134" title="All 2 branches missed.">		User ret = u != null ? u : null;</span>
 <span class="nc" id="L135">		dbManager.close();</span>
 <span class="nc" id="L136">		return ret;</span>

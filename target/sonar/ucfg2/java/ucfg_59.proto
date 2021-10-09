@@ -1,17 +1,17 @@
 
-(domain.Bet#getAnswer()Ljava/lang/String;I
-?C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/Bet.java/ /("1*À
-1I
-?C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/Bet.java1	 1(ˆ
-…
-I
-?C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/Bet.java1	 1(
+(domain.Bet#getAnswer()Ljava/lang/String;C
+9C:/Users/Unai/git/BetsMaven/src/main/java/domain/Bet.java/ /("1*­
+1C
+9C:/Users/Unai/git/BetsMaven/src/main/java/domain/Bet.java1	 1(
+
+C
+9C:/Users/Unai/git/BetsMaven/src/main/java/domain/Bet.java1	 1(
 %0java.lang.String"__id**
 
 domain.Bet"
-answer"e
-I
-?C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/Bet.java1 1(
+answer"_
+C
+9C:/Users/Unai/git/BetsMaven/src/main/java/domain/Bet.java1 1(
 
 %0java.lang.StringB
 

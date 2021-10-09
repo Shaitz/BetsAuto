@@ -1,34 +1,34 @@
 
- domain.User#increaseCurrency(D)DL
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.java– –("1*ü
-1L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.java— —(ë
-é
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.java— —(
+ domain.User#increaseCurrency(D)DF
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java– –("1*˚
+1F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java— —(ã
+à
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java— —(
 %0domain.Wallet"__id*#*!
 domain.User"
-personalWallet•¢
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.java— —(!
+personalWalletüú
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java— —(!
 
 %1void"domain.Wallet#addMoney(D)V*
 
 %0domain.Wallet*
-""2addMoney(D)ë
-é
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.java“	 “(
+""2addMoney(D)ã
+à
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java“	 “(
 %2domain.Wallet"__id*#*!
 domain.User"
-personalWallet£†
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.java“	 “(%
+personalWalletùö
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java“	 “(%
 %3double"domain.Wallet#getCurrency()D*
 
-%2domain.Wallet2getCurrency()"V
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.java“ “(&
+%2domain.Wallet2getCurrency()"P
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java“ “(&
 "":
 ""B
 domain.User

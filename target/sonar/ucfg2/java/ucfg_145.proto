@@ -1,60 +1,60 @@
 
-(domain.User#toString()Ljava/lang/String;L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.javaÁ Á("1*Ó	
-1L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.javaÈ	 È(â
-Ü
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.javaÈ	 È(
+(domain.User#toString()Ljava/lang/String;F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÁ Á("1*∏	
+1F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È(É
+Ä
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È(
 %0java.lang.Integer"__id**
 domain.User"
-idñ
-ì
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.javaÈ	 È(
+idê
+ç
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È(
 %1java.lang.String"__concat*
 
 %0java.lang.Integer*
-\té
-ã
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.javaÈ È(
+\tà
+Ö
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ È(
 %2java.lang.String"__id**
 domain.User"
 
-usernameß
-§
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.javaÈ	 È(
+username°
+û
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È(
 %3java.lang.String"__concat*
 
 %1java.lang.String*
 
-%2java.lang.Stringï
-í
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.javaÈ	 È($
+%2java.lang.Stringè
+å
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È($
 %4java.lang.String"__concat*
 
 %3java.lang.String*
-\té
-ã
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.javaÈ' È(/
+\tà
+Ö
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ' È(/
 %5java.lang.String"__id**
 domain.User"
 
-passwordß
-§
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.javaÈ	 È(/
+password°
+û
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È(/
 %6java.lang.String"__concat*
 
 %4java.lang.String*
 
-%5java.lang.String"h
-L
-@C:/Users/Unai/git/BetAndRuin/Bets/src/main/java/domain/User.javaÈ È(0
+%5java.lang.String"b
+F
+:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ È(0
 
 %6java.lang.StringB
 domain.User
