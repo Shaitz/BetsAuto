@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Bets</groupId>
-  <artifactId>BetAndRuinCI</artifactId>
+  <artifactId>BetAndRuinMaven</artifactId>
    <version>1</version>
 	<build>
 		<plugins>
@@ -53,7 +53,7 @@
 		<maven.compiler.source>11</maven.compiler.source>
 		<sonar.organization>shait</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.login>9ba6331f33142efd2a854bf093445705de0748ae</sonar.login>
+		<sonar.login>c3f5a3e21b98c6e972cc940b3f9c4dd90d8ebb1a</sonar.login>
 	</properties>
 
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
