@@ -79,7 +79,7 @@ public class BetQuestionDynamicGUI extends JFrame
 		closeBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				jButton_actionPerformed(e);
+				jButton_actionPerformed();
 			}
 		});		
 		textBetQuestion.setEditable(false);
@@ -221,7 +221,7 @@ public class BetQuestionDynamicGUI extends JFrame
 	/**
 	 * Initialize the contents of the frame.
 	 */
-	private void jButton_actionPerformed(ActionEvent e) {
+	private void jButton_actionPerformed() {
 		this.setVisible(false);
 	}
 }
