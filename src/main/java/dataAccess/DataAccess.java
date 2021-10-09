@@ -149,7 +149,8 @@ public class DataAccess  {
 		return q;
 	}
 	
-	public Question getQuestion(Question q) {
+	public Question getQuestion(Question q) 
+	{
 		Question ret = db.createQuery("SELECT q FROM Question q WHERE q.questionNumber = " + q.getQuestionNumber(), Question.class).getSingleResult();
 		if(ret.getAnswers() != null)
 			if(ret.getAnswers().iterator().hasNext()) {
