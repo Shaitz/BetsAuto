@@ -1,48 +1,0 @@
-
-$domain.User#removeBet(Ldomain/Bet;)ZF
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java¯ ¯("3*¹
-2F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java´ ´(
-Š
-‡
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java´ ´(
-
-%2java.util.ArrayList"__id**
-domain.User"	
-betListÙÖ
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java´ ´(
-%3boolean"/java.util.ArrayList#remove(Ljava/lang/Object;)Z*
-
-%2java.util.ArrayList*
-
-bet
-domain.Bet2remove(Ljava/lang/Object;)*
-1*À
-3F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java± ±(Š
-‡
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java² ²(
-%0java.util.ArrayList"__id**
-domain.User"	
-betListİÚ
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java² ²(
-%1boolean"1java.util.ArrayList#contains(Ljava/lang/Object;)Z*
-
-%0java.util.ArrayList*
-
-bet
-domain.Bet2contains(Ljava/lang/Object;)*
-2
-1*
-1F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java·	 ·("P
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java· ·(
-"":
-bet
-domain.BetB
-domain.User

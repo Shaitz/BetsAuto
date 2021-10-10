@@ -1,60 +1,0 @@
-
-(domain.User#toString()Ljava/lang/String;F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÁ Á("1*∏	
-1F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È(É
-Ä
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È(
-%0java.lang.Integer"__id**
-domain.User"
-idê
-ç
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È(
-%1java.lang.String"__concat*
-
-%0java.lang.Integer*
-\tà
-Ö
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ È(
-%2java.lang.String"__id**
-domain.User"
-
-username°
-û
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È(
-%3java.lang.String"__concat*
-
-%1java.lang.String*
-
-%2java.lang.Stringè
-å
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È($
-%4java.lang.String"__concat*
-
-%3java.lang.String*
-\tà
-Ö
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ' È(/
-%5java.lang.String"__id**
-domain.User"
-
-password°
-û
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ	 È(/
-%6java.lang.String"__concat*
-
-%4java.lang.String*
-
-%5java.lang.String"b
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÈ È(0
-
-%6java.lang.StringB
-domain.User

@@ -1,104 +1,0 @@
-
-2dataAccess.DataAccess#removeEvent(Ldomain/Event;)ZP
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java∆ ∆("3*Â
-2P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java   (•
-¢
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java   (%
-%5javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-dbíè
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java   ()
-%6#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
-%
-%5javax.persistence.EntityManager2getTransaction()≈¬
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java   (
-
-%7void",javax.persistence.EntityTransaction#begin()V*+
-)
-%6#javax.persistence.EntityTransaction2begin()•
-¢
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÀ À(%
-%8javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-db¯ı
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÀ À(
-
-%9void";javax.persistence.EntityManager#remove(Ljava/lang/Object;)V*'
-%
-%8javax.persistence.EntityManager*
-
-edomain.Event2remove(Ljava/lang/Object;)¶
-£
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÃ Ã(&
-%10javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-dbîë
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÃ Ã(*
-%11#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
-&
-%10javax.persistence.EntityManager2getTransaction()…∆
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÃ Ã(
-%12void"-javax.persistence.EntityTransaction#commit()V*,
-*
-%11#javax.persistence.EntityTransaction2commit()"Z
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÕ Õ(
-""*ä
-
-3P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java« «(}
-{
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java« «(
-%0java.io.PrintStream"__id*
-""ÒÓ
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java« «(6
-
-%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%0java.io.PrintStream*" 
->> DataAccessTest: removeEvent2println(Ljava/lang/String;)•
-¢
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java» »(%
-%2javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-db»≈
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java»! »(4
-%3java.lang.Integer"0domain.Event#getEventNumber()Ljava/lang/Integer;*
-
-evdomain.Event2getEventNumber()Ω∫
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java» »(5
-%4domain.Event"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
-%
-%2javax.persistence.EntityManager*
-""*
-
-%3java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)Ñ
-Å
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java» »(6
-edomain.Event"__id*
-
-%4domain.Event*
-2
-1*±
-1P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaœ	 œ("Z
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaœ œ(
-"":
-evdomain.EventB
-dataAccess.DataAccess

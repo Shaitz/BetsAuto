@@ -1,4 +1,5 @@
 package addPastBetTest;
+
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -24,7 +25,6 @@ class GiveRewardsBLMockTest {
 
 	BlFacade sut = new BlFacadeImplementation(dataAccess);
 
-	@SuppressWarnings("unchecked")
 	@DisplayName("sut.giveRewards: Question es null.")
 	@Test
 	void test1() 

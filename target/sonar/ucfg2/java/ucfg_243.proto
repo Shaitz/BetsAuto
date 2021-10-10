@@ -1,89 +1,0 @@
-
-(domain.Event#equals(Ljava/lang/Object;)ZG
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÁ Á("startingBlock*Ÿ
-2G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÇ
- Ç("Q
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÇ Ç(
-""*Á
-3G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÆ Æ(¯¬
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÆ Æ(
-%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
-domain.Event2
-getClass()¸µ
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÆ Æ("
-%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
-
-objjava.lang.Object2
-getClass()*
-2
-1*ó
-startingBlockG
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÁ Á("‘
-
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÀ À(
-
-%5"
-__annotate*
-java.lang.Override*
-
-objjava.lang.Objectz
-x
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÁ Á(!
-objjava.lang.Object"__annotation*
-
-%5*	
-3
-4
-6*Ÿ
-4G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÅ
- Å("Q
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÅ Å(
-""*Ÿ
-6G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÃ
- Ã("Q
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÃ Ã(
-""*®
-1G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÈ È(„
-
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÈ È(
-otherdomain.Event"__id*
-
-objjava.lang.Object
-‹
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÉ	 É(
-%2java.lang.Integer"__id*!*
-domain.Event"
-eventNumber•
-’
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÉ É(-
-%3java.lang.Integer"__id*(*&
-
-otherdomain.Event"
-eventNumberÜÙ
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÉ	 É(.
-%4boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
-
-%2java.lang.Integer*
-
-%3java.lang.Integer2equals(Ljava/lang/Object;)"Q
-G
-;C:/Users/Unai/git/BetsMaven/src/main/java/domain/Event.javaÉ É(/
-"":
-objjava.lang.ObjectB
-domain.Event

@@ -1,33 +1,0 @@
-
- domain.User#decreaseCurrency(D)DF
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÕ Õ("1*„
-1F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÖ Ö(‹
-ˆ
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÖ Ö(
-%0domain.Wallet"__id*#*!
-domain.User"
-personalWallet¨¥
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.javaÖ Ö($
-%1boolean"domain.Wallet#removeMoney(D)Z*
-
-%0domain.Wallet*
-""2removeMoney(D)‹
-ˆ
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java×	 ×(
-%2domain.Wallet"__id*#*!
-domain.User"
-personalWalletš
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java×	 ×(%
-%3double"domain.Wallet#getCurrency()D*
-
-%2domain.Wallet2getCurrency()"P
-F
-:C:/Users/Unai/git/BetsMaven/src/main/java/domain/User.java× ×(&
-"":
-""B
-domain.User

@@ -11,7 +11,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.junit.jupiter.api.Test;
-
 import configuration.ConfigXML;
 import dataAccess.DataAccess;
 import domain.Bet;

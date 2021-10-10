@@ -1,83 +1,0 @@
-
-WbusinessLogic.BlFacadeImplementation#getEventsMonth(Ljava/util/Date;)Ljava/util/Vector;]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaj j(#"startingBlock*·
-startingBlock]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaj# j(.¶
-£
-]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javah h(
-
-%6"
-__annotate*
-java.lang.Override*
-
-datejava.util.Dateß
-§
-]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javai i(
-%7"
-__annotate*
-javax.jws.WebMethod*
-
-datejava.util.Dateò
-ï
-]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaj) j(-
-datejava.util.Date"__annotation*
-
-%6*
-
-%7*
-1*ﬂ
-1]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javak k(æ
-ª
-]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javak k(
-%0dataAccess.DataAccess"__id*7*5&
-$businessLogic.BlFacadeImplementation"
-	dbManageræª
-]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javak k(
-
-%1void"dataAccess.DataAccess#open(Z)V*
-
-%0dataAccess.DataAccess*
-""2open(Z)æ
-ª
-]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javal l(!
-%2dataAccess.DataAccess"__id*7*5&
-$businessLogic.BlFacadeImplementation"
-	dbManagerüú
-]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javal l(6
-%3java.util.Vector"HdataAccess.DataAccess#getEventsMonth(Ljava/util/Date;)Ljava/util/Vector;*
-
-%2dataAccess.DataAccess*
-
-datejava.util.Date2 getEventsMonth(Ljava/util/Date;)ù
-ö
-]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javal l(7
-datesjava.util.Vector"__id*
-
-%3java.util.Vectoræ
-ª
-]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javam m(
-%4dataAccess.DataAccess"__id*7*5&
-$businessLogic.BlFacadeImplementation"
-	dbManager∂≥
-]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javam m(
-
-%5void"dataAccess.DataAccess#close()V*
-
-%4dataAccess.DataAccess2close()"|
-]
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javan n(
-
-datesjava.util.Vector:
-datejava.util.DateB(&
-$businessLogic.BlFacadeImplementation

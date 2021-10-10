@@ -1,28 +1,0 @@
-
-KdataAccess.DataAccess#getAnswerList(Ldomain/Question;)Ljava/util/ArrayList;P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÄ Ä('"1*∂
-1P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÅ Å(!ÜÉ
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÅ Å($
-%0domain.Question"EdataAccess.DataAccess#getQuestion(Ldomain/Question;)Ldomain/Question;*
-dataAccess.DataAccess*
-
-qdomain.Question2getQuestion(Ldomain/Question;)ë
-é
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÅ Å(%
-questiondomain.Question"__id*
-
-%0domain.Question–Õ
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÇ	 Ç(
-%1java.util.ArrayList"1domain.Question#getAnswers()Ljava/util/ArrayList;*
-
-questiondomain.Question2getAnswers()"o
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaÇ Ç(
-
-%1java.util.ArrayList:
-qdomain.QuestionB
-dataAccess.DataAccess

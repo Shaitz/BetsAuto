@@ -1,82 +1,0 @@
-
-=businessLogic.BlFacadeImplementation#removeBet(Ldomain/Bet;)Z_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java≠ ≠("startingBlock*¨
-startingBlock_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java≠ ≠("§
-°
-_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java¨ ¨(
-%8"
-__annotate*
-javax.jws.WebMethod*
-
-bet
-domain.Betç
-ä
-_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java≠ ≠(!
-bet
-domain.Bet"__annotation*
-
-%8*
-1*Õ
-1_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaÆ Æ(¿
-Ω
-_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaÆ Æ(
-%0dataAccess.DataAccess"__id*7*5&
-$businessLogic.BlFacadeImplementation"
-	dbManager¿Ω
-_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaÆ Æ(
-
-%1void"dataAccess.DataAccess#open(Z)V*
-
-%0dataAccess.DataAccess*
-""2open(Z)¿
-Ω
-_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaØ Ø(!
-%2dataAccess.DataAccess"__id*7*5&
-$businessLogic.BlFacadeImplementation"
-	dbManager±
-Æ
-_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaØ, Ø(5
-%3domain.User"__id*2*0&
-$businessLogic.BlFacadeImplementation"
-userüú
-_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.javaØ Ø(;
-%4boolean";dataAccess.DataAccess#removeBet(Ldomain/User;Ldomain/Bet;)Z*
-
-%2dataAccess.DataAccess*
-
-%3domain.User*
-
-bet
-domain.Bet2$removeBet(Ldomain/User;Ldomain/Bet;)¿
-Ω
-_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java∞ ∞(
-%5dataAccess.DataAccess"__id*7*5&
-$businessLogic.BlFacadeImplementation"
-	dbManager∏µ
-_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java∞ ∞(
-
-%6void"dataAccess.DataAccess#close()V*
-
-%5dataAccess.DataAccess2close()ﬁ€
-_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java± ±(
-
-%7void"3businessLogic.BlFacadeImplementation#refreshUser()V*(&
-$businessLogic.BlFacadeImplementation2refreshUser()"i
-_
-SC:/Users/Unai/git/BetsMaven/src/main/java/businessLogic/BlFacadeImplementation.java≤ ≤(
-"":
-bet
-domain.BetB(&
-$businessLogic.BlFacadeImplementation

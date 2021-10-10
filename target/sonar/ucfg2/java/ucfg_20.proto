@@ -1,64 +1,0 @@
-
-EdataAccess.DataAccess#addAnswer(Ldomain/Question;Ljava/lang/String;)ZP
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaî î("1*È
-1P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaï ï(†ƒ
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javağ ğ($
-%0domain.Question"EdataAccess.DataAccess#getQuestion(Ldomain/Question;)Ldomain/Question;*
-dataAccess.DataAccess*
-
-qdomain.Question2getQuestion(Ldomain/Question;)‘
-
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javağ ğ(%
-questiondomain.Question"__id*
-
-%0domain.Question¥
-¢
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javañ ñ(%
-%1javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-db’
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javañ ñ()
-%2#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
-%
-%1javax.persistence.EntityManager2getTransaction()ÅÂ
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javañ ñ(
-
-%3void",javax.persistence.EntityTransaction#begin()V*+
-)
-%2#javax.persistence.EntityTransaction2begin()ëè
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaò ò(
-%4boolean".domain.Question#addAnswer(Ljava/lang/String;)Z*
-
-questiondomain.Question*
-
-ajava.lang.String2addAnswer(Ljava/lang/String;)¥
-¢
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaó ó(%
-%5javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-db’
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaó ó()
-%6#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
-%
-%5javax.persistence.EntityManager2getTransaction()ÇÄ
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaó ó(
-
-%7void"-javax.persistence.EntityTransaction#commit()V*+
-)
-%6#javax.persistence.EntityTransaction2commit()"Z
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaô ô(
-"":
-qdomain.Question:
-ajava.lang.StringB
-dataAccess.DataAccess

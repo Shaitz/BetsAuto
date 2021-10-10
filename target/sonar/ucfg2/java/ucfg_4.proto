@@ -1,96 +1,0 @@
-
-EdataAccess.DataAccess#getQuestion(Ldomain/Question;)Ldomain/Question;P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaò ò("4*ª
-2P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaû û(À»
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaû û(&
-%9java.util.ArrayList"1domain.Question#getAnswers()Ljava/util/ArrayList;*
-
-retdomain.Question2getAnswers()Õ 
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaû û(1
-%10java.util.Iterator"2java.util.ArrayList#iterator()Ljava/util/Iterator;*
-
-%9java.util.ArrayList2
-iterator()¿Ω
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaû û(8
-%11java.lang.String"+java.util.Iterator#next()Ljava/lang/Object;*
-
-%10java.util.Iterator2next()*
-1*ß
-3P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaú ú(	À»
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaú ú(
-%6java.util.ArrayList"1domain.Question#getAnswers()Ljava/util/ArrayList;*
-
-retdomain.Question2getAnswers()Ã…
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaú ú(!
-%7java.util.Iterator"2java.util.ArrayList#iterator()Ljava/util/Iterator;*
-
-%6java.util.ArrayList2
-iterator()™ß
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaú ú(+
-%8boolean"java.util.Iterator#hasNext()Z*
-
-%7java.util.Iterator2	hasNext()*
-2
-1*⁄
-4P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaö ö(•
-¢
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaö ö(%
-%0javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-db”–
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaöW ö(l
-%1java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
-
-qdomain.Question2getQuestionNumber() 
-«
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaö  ö(l
-%2java.lang.String"__concat*64
-2SELECT q FROM Question q WHERE q.questionNumber = *
-
-%1java.lang.IntegerÊ„
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaö ö(}"
-%3javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
-%
-%0javax.persistence.EntityManager*
-
-%2java.lang.String*
-""20createQuery(Ljava/lang/String;Ljava/lang/Class;)ËÂ
-Q
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaö ö(è
-%4domain.Question"@javax.persistence.TypedQuery#getSingleResult()Ljava/lang/Object;*$
-"
-%3javax.persistence.TypedQuery2getSingleResult()ç
-ä
-Q
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaö ö(ê
-retdomain.Question"__id*
-
-%4domain.QuestionÀ»
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.javaõ õ(
-%5java.util.ArrayList"1domain.Question#getAnswers()Ljava/util/ArrayList;*
-
-retdomain.Question2getAnswers()*
-3
-1*√
-1P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java†	 †("l
-P
-DC:/Users/Unai/git/BetsMaven/src/main/java/dataAccess/DataAccess.java† †(
-
-retdomain.Question:
-qdomain.QuestionB
-dataAccess.DataAccess
