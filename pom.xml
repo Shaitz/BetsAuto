@@ -47,8 +47,8 @@
     			</dependencies>
 				<configuration>
 					<includes>
+						<include>AddPastBetDATest.java</include>
 						<include>GiveRewardsBLMockTest.java</include>
-						<include>AddPBetDATest.java</include>
 					</includes>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
