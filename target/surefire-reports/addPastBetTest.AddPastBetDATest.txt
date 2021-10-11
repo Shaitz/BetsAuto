@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: utility.TestUtilityDataAccess
+Test set: addPastBetTest.AddPastBetDATest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in utility.TestUtilityDataAccess
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.261 s - in addPastBetTest.AddPastBetDATest

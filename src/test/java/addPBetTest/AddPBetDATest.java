@@ -1,4 +1,4 @@
-package addPastBetTest;
+package addPBetTest;
 
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -20,7 +20,7 @@ import domain.User;
 import enums.QuestionTypes;
 import exceptions.QuestionAlreadyExist;
 
-/*class AddPastBetDATest {
+class AddPBetDATest {
 
 	static DataAccess sut = new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));
 	//static TestUtilityDataAccess testDA = new TestUtilityDataAccess();
@@ -278,4 +278,4 @@ import exceptions.QuestionAlreadyExist;
 		testDA.close();
 		
 	}
-}*/
+}
