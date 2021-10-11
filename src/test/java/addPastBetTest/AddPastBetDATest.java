@@ -27,7 +27,7 @@ class AddPastBetDATest {
 	static TestUtilityDataAccess testDA = new TestUtilityDataAccess();
 
 	private Event ev;
-
+	
 	@Test
 	// sut.addPastBet: Usuario es null
 	void test1a() {
@@ -229,8 +229,8 @@ class AddPastBetDATest {
 		testDA.close();
 	
 		Question q2 = ev2.getQuestions().get(0);
-		
-		//Bet bet = new Bet(q, 5, 2, "Test");
+		Question q = ev.getQuestions().get(0);
+		Bet bet = new Bet(q, 5, 2, "Test");
 		
 		testDA.open();
 		testDA.addMoneyToUser(u1.getId(), 2000000);
@@ -240,12 +240,12 @@ class AddPastBetDATest {
 		// invoke System Under Test (sut) and Assert
 		assertNotNull(u2);
 		assertNotEquals(u2.getBets().size(), 0);
-		assertThrows(RuntimeException.class, () -> sut.addPastBet(u1, u1.getBets().get(0), 5));
+		assertThrows(RuntimeException.class, () -> sut.addPastBet(u1, bet, 5));
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			fail("It should be correct: check the date format");
 		}
-
+		
 		// Remove the created objects in the database (cascade removing)
 		testDA.open();
 		boolean b = testDA.removeEvent(ev);
