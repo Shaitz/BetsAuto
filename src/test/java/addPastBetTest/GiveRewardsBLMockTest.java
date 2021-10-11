@@ -46,7 +46,7 @@ class GiveRewardsBLMockTest {
 		assertThrows(RuntimeException.class, ()-> sut.giveRewards(q));
 
 	}
-	
+
 	@Test
 	@DisplayName("sut.giveRewards: BD vacía")
 	void test3() {
