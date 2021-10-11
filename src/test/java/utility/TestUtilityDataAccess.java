@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.ResourceBundle;
 import java.util.Vector;
 
 import javax.persistence.EntityManager;
@@ -14,6 +15,10 @@ import javax.persistence.TypedQuery;
 
 import configuration.ConfigXML;
 import domain.Event;
+import domain.Question;
+import domain.User;
+import enums.QuestionTypes;
+import exceptions.QuestionAlreadyExist;
 
 public class TestUtilityDataAccess {
 	protected  EntityManager  db;
@@ -21,13 +26,12 @@ public class TestUtilityDataAccess {
 
 	ConfigXML  c = ConfigXML.getInstance();
 
-
 	public TestUtilityDataAccess()  {		
 		System.out.println("Creating TestDataAccess instance");
 
 		open();		
 	}
-
+	
 	public void open(){
 		
 		System.out.println("Opening TestDataAccess instance ");
@@ -99,6 +103,100 @@ public class TestUtilityDataAccess {
 			Event ev = db.find(Event.class, event.getEventNumber());
 			return ev.doesQuestionExist(question);
 			
+		}
+		
+		
+		public User getUserWithUsernamePassword(String username, String password){
+			User ret;
+			List<User> checkList = db.createQuery("SELECT u FROM User u WHERE u.username = \"" + username + "\" and u.password = \"" + password + "\"", User.class).getResultList();
+			try {
+				ret = checkList.get(0);
+			}
+			catch(Exception e) {
+				ret = null;
+			}
+			return ret;
+		}
+		
+		public User createUser(String username, String password, String eMail) {
+			User nU = null;
+			if(getUserWithUsernamePassword(username, password) == null)
+				if(getUserWithEMail(eMail) == null) {
+					nU = new User(username, password, eMail);
+					db.getTransaction().begin();
+					db.persist(nU);
+					db.getTransaction().commit();
+				}
+			return nU;
+		}
+		
+		public User getUserWithEMail(String eMail) {
+			User ret;
+			List<User> checkList = db.createQuery("SELECT u FROM User u WHERE u.eMail = \"" + eMail + "\"", User.class).getResultList();
+			try {
+				ret = checkList.get(0);
+			}
+			catch (Exception e) {
+				ret = null;
+			}
+			return ret;
+		}
+		
+		public boolean removeUser(User u) {
+			System.out.println(">> DataAccessTest: removeUser");
+			User us = this.getUserWithUsernamePassword(u.getUsername(), u.getPassword());
+			if (us!=null) {
+				db.getTransaction().begin();
+				db.remove(us);
+				db.getTransaction().commit();
+				return true;
+			} else 
+			return false;
+	    }
+		
+		public double addMoneyToUser(int id, double amount) {
+			var user = this.getUserByID(id);
+			if(user == null)
+			{
+				return -1;
+			}
+			db.getTransaction().begin();
+			double ret = user.increaseCurrency(amount);
+			db.getTransaction().commit();
+			return ret;
+		}
+		
+		public User getUserByID(Integer id) {
+			User ret;
+			List<User> checkList = db.createQuery("SELECT u FROM User u WHERE u.id = " + id, User.class).getResultList();
+			try {
+				ret = checkList.get(0);
+			}
+			catch (Exception e) {
+				ret = null;
+			}
+			return ret;
+		}
+		
+		public boolean placeBet(User user, Question question, double amount, String answer) {
+			User userToChange = this.getUserWithUsernamePassword(user.getUsername(), user.getPassword());
+			var q = this.getQuestion(question);
+			db.getTransaction().begin();
+			boolean ret = userToChange.placeBet(question, amount, answer);
+			q.addPool(amount);
+			db.getTransaction().commit();
+			return ret;
+		}
+		
+		public Question getQuestion(Question q) 
+		{
+			Question ret = db.createQuery("SELECT q FROM Question q WHERE q.questionNumber = " + q.getQuestionNumber(), Question.class).getSingleResult();
+			if(ret.getAnswers() != null)
+				if(ret.getAnswers().iterator().hasNext()) {
+					@SuppressWarnings("unused")
+					String just4Use = ret.getAnswers().iterator().next();
+				}
+			return ret;
 		}
 }
 

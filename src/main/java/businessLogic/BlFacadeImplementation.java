@@ -25,7 +25,7 @@ import exceptions.QuestionAlreadyExist;
  */
 @WebService(endpointInterface = "businessLogic.BlFacade")
 public class BlFacadeImplementation implements BlFacade {
-
+	
 	DataAccess dbManager;
 	ConfigXML config = ConfigXML.getInstance();
 	private User user = null;
@@ -48,7 +48,6 @@ public class BlFacadeImplementation implements BlFacade {
 		}
 		dbManager = dam;		
 	}
-
 
 	/**
 	 * This method creates a question for an event, with a question text and the minimum bet

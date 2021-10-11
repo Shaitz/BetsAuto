@@ -16,7 +16,6 @@ import domain.Event;
 public class TestUtilityFacadeImplementation {
 		private TestUtilityDataAccess dbManagerTest;
  	
-    
 	   public TestUtilityFacadeImplementation()  {			
 			System.out.println("Creating TestFacadeImplementation instance");
 			ConfigXML.getInstance();

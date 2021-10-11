@@ -5,7 +5,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
-import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,11 +31,10 @@ class GiveRewardsBLMockTest {
 		Question q = null;
 		assertThrows(RuntimeException.class, ()-> sut.giveRewards(q));
 	}
-	
 
 	@Test
 	@DisplayName("sut.giveRewards: Question no tiene resultado.")
-	void test2() throws ParseException {
+	void test2() {
 		// define paramaters
 		String queryText = "Query Text";
 		// configure Mock
@@ -51,7 +49,7 @@ class GiveRewardsBLMockTest {
 	
 	@Test
 	@DisplayName("sut.giveRewards: BD vacía")
-	void test3() throws ParseException {
+	void test3() {
 		// define paramaters
 		String queryText = "Query Text";
 		Float betMinimum = 2f;
@@ -70,7 +68,7 @@ class GiveRewardsBLMockTest {
 	
 	@Test
 	@DisplayName("sut.giveRewards: BD con 3 usuarios diferentes.")
-	void test4() throws ParseException {
+	void test4() {
 		// define paramaters
 		String queryText = "Query Text";
 		Float betMinimum = 2f;
