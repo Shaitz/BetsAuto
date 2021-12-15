@@ -23,7 +23,7 @@ public class ApplicationLauncher {
 		MainGUI initWindow = new MainGUI();
 		BlFacade businessLogic;
 
-		try {
+		try { 
 
 			UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
 			// Other possibilities are:
