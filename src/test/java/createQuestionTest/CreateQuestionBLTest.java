@@ -82,7 +82,8 @@ class CreateQuestionBLTest {
 				// verify DB
 				Vector<Event> es = testBL.getEvents(oneDate);
 
-				assertEquals(1, es.size());
+				//assertEquals(1, es.size());
+				assertEquals(2, es.size());
 				assertEquals(2, es.get(0).getQuestions().size());
 				assertEquals(queryText, es.get(0).getQuestions().get(1).getQuestion());
 				assertEquals(betMinimum, es.get(0).getQuestions().get(1).getBetMinimum());
