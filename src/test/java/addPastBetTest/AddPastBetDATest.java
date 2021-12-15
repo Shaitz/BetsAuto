@@ -27,6 +27,7 @@ class AddPastBetDATest {
 	static TestUtilityDataAccess testDA = new TestUtilityDataAccess();
 
 	private Event ev;
+	private Event ev2;
 	
 	@Test
 	// sut.addPastBet: Usuario es null
@@ -36,7 +37,7 @@ class AddPastBetDATest {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		Date oneDate;
 		try {
-		oneDate = sdf.parse("05/10/2022");
+		oneDate = sdf.parse("06/10/2022");
 		String eventText = "Event Text";
 		User u = null;
 		
@@ -68,7 +69,7 @@ class AddPastBetDATest {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		Date oneDate;
 		try {
-		oneDate = sdf.parse("05/10/2022");
+		oneDate = sdf.parse("06/10/2022");
 		String eventText = "Event Text";
 		User u = new User("TestTest", "123456789", "email@email.test");;
 		
@@ -91,7 +92,7 @@ class AddPastBetDATest {
 		testDA.close();
 
 	}
-	
+
 	@Test
 	// sut.addPastBet: BenefitUser es menor que cero
 	void test1c() {
@@ -100,7 +101,7 @@ class AddPastBetDATest {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		Date oneDate;
 		try {
-		oneDate = sdf.parse("05/10/2022");
+		oneDate = sdf.parse("06/10/2022");
 		String eventText = "Event Text";
 		User u = new User("TestTest", "123456789", "email@email.test");;
 		
@@ -134,7 +135,7 @@ class AddPastBetDATest {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		Date oneDate;
 		try {
-		oneDate = sdf.parse("05/10/2022");
+		oneDate = sdf.parse("06/10/2022");
 		String eventText = "Event Text";
 		
 		testDA.open();
@@ -178,7 +179,7 @@ class AddPastBetDATest {
 		testDA.close();
 		try {
 		
-		oneDate = sdf.parse("05/10/2022");
+		oneDate = sdf.parse("06/10/2022");
 		String eventText = "Event Text";
 		
 		testDA.open();
@@ -219,13 +220,13 @@ class AddPastBetDATest {
 		testDA.close();
 		try {
 			
-		oneDate = sdf.parse("05/10/2022");
+		oneDate = sdf.parse("06/10/2022");
 		String eventText = "Event Text";
 		String queryText2 = "Query Text2";
 
 		testDA.open();
 		ev = testDA.addEventWithQuestion(eventText, oneDate, "otra", 10.0f);
-		Event ev2 = testDA.addEventWithQuestion(eventText, oneDate, queryText2, 10.0f);
+		ev2 = testDA.addEventWithQuestion(eventText, oneDate, queryText2, 10.0f);
 		testDA.close();
 	
 		Question q2 = ev2.getQuestions().get(0);
@@ -249,8 +250,9 @@ class AddPastBetDATest {
 		// Remove the created objects in the database (cascade removing)
 		testDA.open();
 		boolean b = testDA.removeEvent(ev);
-		boolean b2 = testDA.removeUser(u1);
-		System.out.println("Removed event " + b + b2);
+		boolean b2 = testDA.removeEvent(ev2);
+		boolean b3 = testDA.removeUser(u1);
+		System.out.println("Removed event " + b + b2 + b3);
 		testDA.close();
 		
 	}
@@ -265,7 +267,7 @@ class AddPastBetDATest {
 		User u = new User("TestTest", "123456789", "email@email.test");
 		try {
 			
-		oneDate = sdf.parse("05/10/2022");
+		oneDate = sdf.parse("06/10/2022");
 		String eventText = "Event Text";
 		
 		testDA.open();
