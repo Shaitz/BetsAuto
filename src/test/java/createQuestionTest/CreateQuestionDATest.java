@@ -30,7 +30,7 @@ class CreateQuestionDATest {
 
 	@Test
 	// sut.createQuestion: The event has one question with a queryText.
-	void test1() {
+	void test1() { 
 
 		try {
 			// configure the state of the system (create object in the dabatase)
