@@ -58,7 +58,7 @@ class CreateQuestionBLTest {
 
 	@Test
 	// sut.createQuestion: The event has NOT one question with a queryText.
-	void test2() {
+	void test2() { 
 		try {
 			// configure the state of the system (create object in the dabatase)
 			String eventText = "Event Text";
