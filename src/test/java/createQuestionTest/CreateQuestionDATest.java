@@ -90,9 +90,7 @@ class CreateQuestionDATest {
 				testDA.open();
 				Vector<Event> es = testDA.getEvents(oneDate);
 				testDA.close();
-
-				//assertEquals(1, es.size());
-				assertEquals(3, es.size());
+				assertEquals(1, es.size());
 				assertEquals(2, es.get(0).getQuestions().size());
 				assertEquals(queryText, es.get(0).getQuestions().get(1).getQuestion());
 				assertEquals(betMinimum, es.get(0).getQuestions().get(1).getBetMinimum());
@@ -197,8 +195,7 @@ class CreateQuestionDATest {
 				testDA.open();
 				Vector<Event> es = testDA.getEvents(oneDate);
 				testDA.close();				
-				//assertEquals(1, es.size());
-				assertEquals(3, es.size());
+				assertEquals(1, es.size());
 				assertEquals(eventText, es.get(0).getDescription());
 				assertEquals(oneDate, es.get(0).getEventDate());
 
